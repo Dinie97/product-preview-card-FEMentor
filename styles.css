@@ -80,6 +80,7 @@ p, span{
   .price{
     display: flex;
     align-items: center;
+    color: hsl(158, 36%, 37%);
   }
 
   .discount{
