@@ -37,6 +37,9 @@ p, span{
   max-width: 50%;
 }
 
+.perfume{
+  letter-spacing: 3px;
+}
   .product-img{
     max-width: 100%;
     display: block;
