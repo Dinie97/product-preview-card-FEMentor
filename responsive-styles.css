@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+
+    p, span{
+        font-size: 12px;
+    }
+    .product-img {
+        max-width: 100%;
+        display: block;
+        background-image: url(./images/image-product-mobile.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 235px;
+    }
+
+    .card {
+        max-width: 50%;
+        height: 100%;
+        background-color: #fff;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .img-cover{
+        max-width: 100%;
+      }
+
+        .text-desc {
+            max-width: 100%;
+        }
+  }
