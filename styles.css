@@ -17,7 +17,7 @@ p, span{
   .card {
     max-width: 50%;
     height: auto;
-    background-color: lightblue;
+    background-color: #fff;
     text-align: center;
     display: flex;
     flex-direction: row;
