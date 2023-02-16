@@ -7,6 +7,7 @@ p, span{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: hsl(228, 12%, 48%);
+    line-height: 2em;
 }
 .container {
     display: flex;
@@ -16,7 +17,8 @@ p, span{
   }
   
   .card {
-    max-width: 50%;
+    max-width: 40%;
+    min-height: 50%;
     height: auto;
     background-color: #fff;
     text-align: center;
@@ -41,13 +43,14 @@ p, span{
   letter-spacing: 3px;
 }
   .product-img{
-    max-width: 100%;
+    max-width: 100%;    
+    min-height: 100%;
     display: block;
     background-image: url(./images/image-product-desktop.jpg);
     background-size: cover; /* or contain, depending on your preference */
     background-position: center center; /* or other values for positioning */
     width: 500px;
-    height: 500px;;
+    height: 470px;;
   }
   .text-desc{
     position: relative;
@@ -69,7 +72,7 @@ p, span{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     cursor: pointer;
-
+    margin-bottom: 1rem;
   }
   
   .cart-icon{
